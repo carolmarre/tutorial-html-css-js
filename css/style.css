@@ -1,0 +1,23 @@
+#hader {
+    height: 100px;
+    width: 100%;
+    background-color: #051150;
+}
+
+#sidebar {
+    height: 300px;
+    width: 400px;
+    background-color: #055044;
+}
+
+#content {
+    height: 400px;
+    width: 300px;
+    background-color: #220550;
+}
+
+#footer {
+    height: 150px;
+    width: 100%;
+    background-color: #500537;
+}

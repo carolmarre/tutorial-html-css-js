@@ -1,0 +1,13 @@
+body {
+    
+    background-image: url("1.avif");
+    background-size: 100%;
+}
+h1{
+    color: #b41c8e;
+}
+
+img {
+    width: 100px;
+    height: 300px;
+}
