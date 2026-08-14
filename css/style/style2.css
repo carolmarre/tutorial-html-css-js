@@ -6,7 +6,7 @@
 #sidebar {
     width: 300px;
     height: 900px;
-    background-color: #39bd56;
+    background-color: #6e8132;
 }
 
 #main{
@@ -15,15 +15,15 @@
 
 #header {
     height: 150px;
-    background-color: #d1d14d;
+    background-color: #31817e;
 }
 
 #content {
     height: 600px;
-    background-color: #df971b;
+    background-color: #2c4470;
 }
 
 #footer {
     height: 150px;
-    background-color: #549eed;
+    background-color: #6d2f73;
 }
