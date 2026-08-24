@@ -1,6 +1,6 @@
 #header {
     height: 150px;
-    background-color: #571111;
+    background-color: #d1d14d;
 }
 
 #main{
@@ -10,16 +10,16 @@
 #sidebar-left, #sidebar-right  {
     width: 300px;
     height: 600px;
-    background-color: #101052;
+    background-color: #39bd56;
 }
 
 #content {
     width: calc(100% - 300px - 300px);
     height: 600px;
-    background-color: #e6ef98;
+    background-color: #df971b;
 }
 
 #footer {
     height: 150px;
-    background-color: #31465d;
+    background-color: #549eed;
 }

@@ -1,0 +1,14 @@
+body {
+    background-color: #344d83;
+}
+
+h1 {
+    color: #38135b;
+    background-color: #76c8ffd8;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
