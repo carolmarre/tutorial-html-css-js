@@ -57,7 +57,7 @@
 
 #highlight{
     height: 500px;
-    background-color: #f4b9b9;
+    background-color: #ffacac;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@
 }
 
 .purple {
-    background-color: #9b4dff;
+    background-color: #b783fc;
 }
 
 #footer {
