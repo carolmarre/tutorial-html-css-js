@@ -1,7 +1,7 @@
 #header {
     width: 100%;
     height: 100px;
-    background-color: #d1d14d;
+    background-color: #4dd1a9;
 }
 
 #main{
@@ -11,13 +11,13 @@
 #sidebar {
     width: 300px;
     height: 400px;
-    background-color: #39bd56;
+    background-color: #171144;
 }
 
 #content {
     width: calc(100% - 300px);
     height: 400px;
-    background-color: #df971b;
+    background-color: #641c94;
 }
 
 #footer {
