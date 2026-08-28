@@ -1,4 +1,4 @@
--# Tópicos Importantes de CARWEB1
+# Tópicos Importantes de CARWEB1
 
 - Qual a estrutura básica de um código html?
 - Para que serve o Doctype em um documento html?
@@ -45,8 +45,8 @@
     - Elemento
     - , "e"
     - \# para id e . para class
-----
-    - > para filho direto (body > header)
+    - \> para filho direto (body > header)
+    - Elementos especificos de class
 
 
 - Revisão dia 21/09
