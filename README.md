@@ -45,8 +45,8 @@
     - Elemento
     - , "e"
     - \# para id e . para class
-    - \> para filho direto (body > header)
-    - Elementos especificos de class
+----
+    - > para filho direto (body > header)
 
 
 - Revisão dia 21/09
