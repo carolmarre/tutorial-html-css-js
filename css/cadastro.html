@@ -6,34 +6,65 @@
     <title>IF Investments</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <header>
         <div class="wrapper">
             <div id="logo">
-               <img src="../img/money-svgrepo-com.svg"alt="Logo Investments">
+                <img src="../img/money-svgrepo-com.svg" alt="Logo Investments">
                 <h1>IF <span>Investments</span></h1>
             </div>
+
             <nav>
                 <ul>
-                    <li><a href= "index.html">Home</a></li>
-                    <li><a href= "bolsas.html">Bolsas</a></li>
-                    <li><a href= "cadastro.html" class="active">Cadastro</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bolsas.html">Bolsas</a></li>
+                    <li><a href="cadastro.html" class="active">Cadastro</a></li>
                 </ul>
-            </nav> 
+            </nav>
         </div>
     </header>
+
+
     <main>
         <div class="wrapper">
+
             <h1>Cadastro</h1>
+
             <form>
-                <label for="nameUser">Nome:</label>
-                <input type="texte" name="nameUser" id="nameUser" placeholder="Primeiro nome">
 
-                <label for="nameUser">Sobrenome:</label>
-                <input type="texte" name="nameUser" id="nameUser" placeholder="Sobrenome">
+                <fieldset>
 
-                <label for="passwordUser">Senha:</label>
-                <input type="password" name="nameUser" id="passwordUser">
+                    <legend>Dados Pessoais</legend>
+
+                    <label for="nameUser">Nome:</label>
+                    <input type="text" name="nameUser" id="nameUser" placeholder="Primeiro nome">
+
+                    <label for="lastNameUser">Sobrenome:</label>
+                    <input type="text" name="lastNameUser" id="lastNameUser" placeholder="Sobrenome">
+
+                    <label for="cpfUser">CPF:</label>
+                    <input type="text" name="cpfUser" id="cpfUser" placeholder="CPF">
+
+                    <label for="phoneUser">Telefone:</label>
+                    <input type="tel" name="phoneUser" id="phoneUser" placeholder="Telefone">
+
+                </fieldset>
+
+
+                <fieldset>
+
+                    <legend>Dados de Acesso</legend>
+
+                    <label for="emailUser">E-mail:</label>
+                    <input type="email" name="emailUser" id="emailUser" placeholder="E-mail">
+
+                    <label for="passwordUser">Senha:</label>
+                    <input type="password" name="passwordUser" id="passwordUser">
+
+                </fieldset>
+
 
                 <h3>Qual seu perfil de investidor?</h3>
 
@@ -41,39 +72,148 @@
                     <input type="radio" name="perfilInvestidor" id="conservador" value="conservador">
                     <label for="conservador">Conservador</label>
                 </div>
+
                 <div>
                     <input type="radio" name="perfilInvestidor" id="moderado" value="moderado">
                     <label for="moderado">Moderado</label>
                 </div>
+
                 <div>
                     <input type="radio" name="perfilInvestidor" id="arrojado" value="arrojado">
                     <label for="arrojado">Arrojado</label>
                 </div>
 
-                 <h3>Em quais tipos de investimentos você tem interesse?</h3>
 
-                 <div>
+
+                <h3>Qual sua experiência com investimentos?</h3>
+
+                <div>
+                    <input type="radio" name="experiencia" id="iniciante" value="iniciante">
+                    <label for="iniciante">Iniciante</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="experiencia" id="intermediario" value="intermediario">
+                    <label for="intermediario">Intermediário</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="experiencia" id="avancado" value="avancado">
+                    <label for="avancado">Avançado</label>
+                </div>
+
+                <h3>Em quais tipos de investimentos você tem interesse?</h3>
+
+                <div>
                     <input type="checkbox" name="investimentos[]" id="rendaFixa" value="rf">
                     <label for="rendaFixa">Renda Fixa</label>
                 </div>
+
                 <div>
                     <input type="checkbox" name="investimentos[]" id="rendaVariavel" value="rv">
-                    <label for="rendaFixa">Renda Variável</label>
+                    <label for="rendaVariavel">Renda Variável</label>
                 </div>
+
                 <div>
                     <input type="checkbox" name="investimentos[]" id="fundosImobiliarios" value="fi">
                     <label for="fundosImobiliarios">Fundos Imobiliários</label>
                 </div>
+
                 <div>
                     <input type="checkbox" name="investimentos[]" id="criptoativos" value="ca">
                     <label for="criptoativos">Criptoativos</label>
                 </div>
+
+
+
+                <fieldset>
+
+                    <legend>Endereço</legend>
+
+                    <label for="cepUser">CEP</label>
+                    <input type="text" name="cepUser" id="cepUser" placeholder="CEP">
+
+                    <label for="streetUser">Rua</label>
+                    <input type="text" name="streetUser" id="streetUser" placeholder="Rua">
+
+                    <label for="numberUser">Número</label>
+                    <input type="text" name="numberUser" id="numberUser" placeholder="Número">
+
+                    <label for="complementUser">Complemento</label>
+                    <input type="text" name="complementUser" id="complementUser" placeholder="Complemento">
+
+                    <label for="neighborhoodUser">Bairro</label>
+                    <input type="text" name="neighborhoodUser" id="neighborhoodUser" placeholder="Bairro">
+
+                    <label for="cityUser">Cidade</label>
+                    <input type="text" name="cityUser" id="cityUser" placeholder="Cidade">
+
+                    <label for="stateUser">Estado</label>
+
+                    <select name="stateUser" id="stateUser">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP" selected>São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+
+                </fieldset>
+
+
+                <label for="investmentGoal">Objetivo de Investimento</label>
+
+                <textarea
+                    rows="5"
+                    name="investmentGoalUser"
+                    id="investmentGoal"
+                    placeholder="Descreva seu objetivo de investimento."></textarea>
+
+
+                <div>
+                    <input type="checkbox" name="termsUser" id="termsUser">
+                    <label for="termsUser">Aceito os termos de uso</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="promotionsUser" id="promotionsUser">
+                    <label for="promotionsUser">Desejo receber promoções</label>
+                </div>
+
+
+                <input type="submit" value="Cadastrar">
+
             </form>
+
         </div>
     </main>
+
+
     <footer>
         <div class="wrapper"></div>
     </footer>
-    
+
 </body>
 </html>

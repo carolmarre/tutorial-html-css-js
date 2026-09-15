@@ -104,12 +104,24 @@ form {
     gap: 10px;
 }
 
+fieldset {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #5d5c5c;
+}
+
 form label {
     margin: 20px 0 0 0;
 }
 
-form input {
+form input, select, textarea {
     padding: 5px 8px;
     border-radius: 15px;
     border: none;
+}
+
+input[type="submit"]{
+    background-color: #9fbd85;
 }
